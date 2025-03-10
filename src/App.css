@@ -1,0 +1,24 @@
+.scene__buttons {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+
+    margin-top: 10px;
+}
+
+.scene__buttons button {
+    flex: 1;
+    margin-right: 10px;
+    text-transform: none;
+}
+
+.light {
+    color: white !important;
+    border-color: white !important;
+}
+
+.light:disabled {
+    color: rgba(255, 255, 255, 0.525) !important;
+    border-color: rgba(255, 255, 255, 0.525) !important;
+}
